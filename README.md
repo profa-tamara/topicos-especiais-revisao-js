@@ -61,7 +61,7 @@ Faça um programa que leia 2 números, some-os e exiba uma mensagem com o result
 
 <hr>
 
-### Exercício 4
+#### Exercício 4
 
 Para um jogo, precisamos saber se um personagem morreu ou não depois de sofrer um ataque. Faça uma função que receba 2 parâmetros, 'dano' e 'saude'. A função deve retornar '1' se o dano for matar o personagem (ou seja, deixar sua saúde menor ou igual a zero) e '0' caso contrário.
 
@@ -86,4 +86,36 @@ Crie uma função que receba um valor de 0 a 100 como parâmetro e faça a segui
 <hr>
 
 ### Exercício 6
+
+Crie uma função que leia o seguinte array
+
+`let array = [0, 1, 34, 21, 55, 20, 10, 33, 87, 102, 639];`
+
+E retorne um novo array apenas com os números pares.
+
+<hr>
+
+### Exercício 7
+
+Considere o objeto abaixo, que possui dados de um livro.
+
+```javascript
+let livro = {
+    titulo: 'O Homem de Giz',
+    autor: 'C J Tudor',
+    ano: 2018,
+}
+```
+
+Escreva o código que vai inserir novas entradas no objeto. As entradas que devem ser inseridas são:
+
+```code
+editora: 'Intrínseca',
+paginas: 272,
+tradutor: 'Alexandre Raposo`
+```
+
+Dica: use o **console.log()** após o seu código para visualizar o objeto `livro`. O conteúdo do objeto `livro` deve estar atualizado.
+
+<hr>
 
