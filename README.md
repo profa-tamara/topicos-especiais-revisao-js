@@ -41,7 +41,7 @@ A média entre três números, é a some dos três números divididos por 3
 A média entre 'n' números, é a some dos 'n' números divididos por 'n'
 ```
 
-˜˜˜
+<hr>
 
 #### Exercício 2
 
@@ -53,7 +53,7 @@ C = ( ( F - 32 ) * 5 ) / 9.
 
 **Exemplo:** 100 Fahrenheit = 37,77 Celsius.
 
-˜˜˜
+<hr>
 
 #### 3
 
