@@ -27,9 +27,9 @@ Clique no ícone lateral do GitHub.dev, dê um nome ao commit e clique em **Comm
 No nome do Pull Request, use a sigla da disciplina, o nome do exercício e o nome da dupla.
 _Exemplo_: [TE] Revisão - Joana Silva e Marcelo Santos
 
-### Lista de Exercícios
+<hr>
 
-#### Exercício 1
+### Exercício 1
 
 Faça um programa que leia 3 números, some-os e exiba a média entre eles.
 
@@ -43,7 +43,7 @@ A média entre 'n' números, é a some dos 'n' números divididos por 'n'
 
 <hr>
 
-#### Exercício 2
+### Exercício 2
 
 Faça um programa que leia do usuário uma temperatura em Fahrenheit, converta-a para graus Celsius e escreva o novo valor na tela. A fórmula de conversão de Fahrenheit (F) para Celsius é:
 
@@ -55,13 +55,13 @@ C = ( ( F - 32 ) * 5 ) / 9.
 
 <hr>
 
-#### Exercício 3
+### Exercício 3
 
 Faça um programa que leia 2 números, some-os e exiba uma mensagem com o resultado apenas se o resultado for maior que 85.
 
 <hr>
 
-#### Exercício 4
+### Exercício 4
 
 Para um jogo, precisamos saber se um personagem morreu ou não depois de sofrer um ataque. Faça uma função que receba 2 parâmetros, 'dano' e 'saude'. A função deve retornar '1' se o dano for matar o personagem (ou seja, deixar sua saúde menor ou igual a zero) e '0' caso contrário.
 
