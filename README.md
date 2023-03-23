@@ -17,11 +17,11 @@ __Exemplo__: `git checkout -b TE-joana-silva-marcelo-santos`
 
 - Faça o `git clone` na máquina local ou abra o arquivo `respostas.js` no `github.dev`.
 
-[Caso trabalhe com o repositório com o uso de `git clone`:
-Salve o arquivo, dê os `commits` e o `push`]
+⚠️ Caso trabalhe com o repositório com o uso de `git clone`:
+Salve o arquivo, dê os `commits` e o `push`
 
-[Caso trabalhe com o uso do `github.dev`:
-Clique no ícone lateral do GitHub.dev, dê um nome ao commit e clique em **Commit & Push**]
+⚠️ Caso trabalhe com o uso do `github.dev`:
+Clique no ícone lateral do GitHub.dev, dê um nome ao commit e clique em **Commit & Push**
 
 - Abra um **Pull Request** comparando a branch criada com a `main`.
 No nome do Pull Request, use a sigla da disciplina, o nome do exercício e o nome da dupla.
