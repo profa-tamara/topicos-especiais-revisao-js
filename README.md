@@ -55,18 +55,35 @@ C = ( ( F - 32 ) * 5 ) / 9.
 
 <hr>
 
-#### 3
+#### Exercício 3
 
-#### 4
+Faça um programa que leia 2 números, some-os e exiba uma mensagem com o resultado apenas se o resultado for maior que 85.
 
-#### 5
+<hr>
 
-#### 6
+### Exercício 4
 
-#### 7
+Para um jogo, precisamos saber se um personagem morreu ou não depois de sofrer um ataque. Faça uma função que receba 2 parâmetros, 'dano' e 'saude'. A função deve retornar '1' se o dano for matar o personagem (ou seja, deixar sua saúde menor ou igual a zero) e '0' caso contrário.
 
-#### 8
+Dica - utilize a seguinte função:
 
-#### 9
+```code
+function personagemMorreu (dano, saude) {
+  //
+}
+```
 
-#### 10
+<hr>
+
+### Exercício 5
+
+Crie uma função que receba um valor de 0 a 100 como parâmetro e faça a seguinte validação:
+
+- Se o valor estiver entre 0 a 40, a função deve retornar `Reprovado`.
+- Se o valor estiver entre 41 a 59, a função deve retornar `Recuperação`.
+- Se o valor for maior que 60, a função deve retornar `Aprovado`.
+
+<hr>
+
+### Exercício 6
+
