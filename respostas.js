@@ -76,9 +76,35 @@ function calcNota(nota){
 
 let array = [0, 1, 34, 21, 55, 20, 10, 33, 87, 102, 639];
 
-for(let i = 0; i < 11; i++) {
+function Pares(array) 
+{
+    let pares = []
 
-        array[i] 
+    for(let i of array)
+    {
+        if(i % 2 === 0)
+            pares.push(i);
+    }
+
+    return pares;
 }
+
+console.log(Pares(array));
+
+//7
+
+let livro = {
+    titulo: 'O Homem de Giz',
+    autor: 'C J Tudor',
+    ano: '2018'
+};
+
+livro.editora = 'Intríseca';
+
+livro.paginas = 272;
+
+livro.tradutor = 'Alexandre Raposo';
+
+console.log(livro);
 
 
