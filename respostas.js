@@ -38,3 +38,50 @@ function personagemMorreu (dano, saude) {
 console.log(personagemMorreu(4,5));
 
 //EXERCICIO 5
+function avalia(nota) {
+
+    if(nota >=0 && nota <=40) {
+        return 'Reprovado';
+    }
+    if(nota >=41 && nota <=59) {
+        return 'Recuperação';
+    }
+    if(nota>=60) {
+        return 'Aprovado';
+    }
+}
+console.log(avalia(30));
+console.log(avalia(57));
+console.log(avalia(90));
+
+
+//EXERCÍCIO 6
+function filtrarArray(array) {
+    let arrayPar = [];
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] % 2 === 0) {
+        arrayPar.push(array[i]);
+      }
+    }
+    return arrayPar;
+  }
+
+  let array = [0, 1, 34, 21, 55, 20, 10, 33, 87, 102, 639];
+  let arrayPar = filtrarArray(array);
+
+  console.log(arrayPar); 
+
+
+//EXERCÍCIO 7
+let livro = {
+    titulo: 'O Homem de Giz',
+    autor: 'C J Tudor',
+    ano: 2018,
+}
+
+    livro.editora = 'Intrínseca';
+    livro.paginas = 272;
+    livro.tradutor = 'Alexandre Raposo';
+
+
+console.log(livro);
